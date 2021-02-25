@@ -81,7 +81,7 @@
                                 </connections>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X2c-0H-MH2">
-                                <rect key="frame" x="70" y="374" width="275" height="49"/>
+                                <rect key="frame" x="70" y="371" width="275" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ubp-Ut-jT6" userLabel="Card 1">
@@ -112,7 +112,7 @@
                                 </connections>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KnY-1c-FUp">
-                                <rect key="frame" x="70" y="591" width="275" height="49"/>
+                                <rect key="frame" x="70" y="595" width="275" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ztO-y9-hLo">
