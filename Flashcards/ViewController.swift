@@ -82,9 +82,8 @@ class ViewController: UIViewController {
             frontSchind.isHidden = false;
         }
         }
-    
+
     @IBAction func didTaponFlashcard3(_ sender: Any) {
         frontPortrait.isHidden = true;
     }
-    
 }
