@@ -70,7 +70,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func didTaponFlashcard1(_ sender: Any) {
-        frontLincoln.isHidden = true;
+        frontLincoln.isHidden =  true;
     }
     
     @IBAction func didTaponFlashcard2(_ sender: Any) {
