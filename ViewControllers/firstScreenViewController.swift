@@ -7,8 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class firstScreenViewController: UIViewController {
     
     @IBOutlet weak var Card: UIView!
     @IBOutlet weak var frontLabel: UILabel!
@@ -85,5 +84,21 @@ class ViewController: UIViewController {
 
     @IBAction func didTaponFlashcard3(_ sender: Any) {
         frontPortrait.isHidden = true;
+    }
+    
+   func updateFlashcard(question: String, answer: String) {
+    frontLabel.text = question
+    frontSchind.text = answer
+   }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //We know the destination of the segue is the Navigation Controller
+        let navigationController = segue.destination as! UINavigationController
+        
+        //We know the Navigation Controller only contains a Creation View Controller
+        let creationController = navigationController.topViewController as! CreationViewController
+        
+        //we set the flashcardsController property to self
+        creationController.flashcardsController = self
     }
 }
