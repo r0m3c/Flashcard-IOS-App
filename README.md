@@ -18,5 +18,5 @@ https://imgur.com/h7NX4vR
 - [x] Push code to GitHub
 ## Optional
 - [x] Toggle the flashcard between the question side and the answer side
-- [] Style the question and answer side of the card to better distinguish between the two sides
+- [ ] Style the question and answer side of the card to better distinguish between the two sides
 - [x] Add selectable multiple choice answers beneath the card
