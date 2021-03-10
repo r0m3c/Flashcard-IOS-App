@@ -1,6 +1,22 @@
 ## Flashcards
 
-📝 `NOTE:` Paste the README templates for each subsequent lab here at the top, (i.e. lab 2, 3, 4). This will show a history of your development process including which users stories you completed and how your app looked and functioned at each step.
+## Lab 2
+
+### App Description
+To begin, the first new addition added to my app is the ability to press the “+” button, which will lead you to another screen (creation screen) where the user can add a new flashcard into the main screen. The user has the option to change the question, and all three choices that come up in the flashcard. As a heads up, make sure that you leave none of the text fields open, because if you do, you will get an error if you leave any blank. Make sure to insert something in the text fields. Moving on, in the creation screen, the user is able to press the “cancel” button at the top right to immediately leave that screen and go back to the main screen whenever you choose to. Furthermore, a new addition was added to manually edit the flashcard in the main screen by pressing the “✏️” button. Pressing this button will take you to the creation screen, where all text fields will be filled up with the current information that was in the main screen. Here the user will be able to edit the current flashcard. Also, no fields can be left empty, as you will get an error message. To end, a few new functionalities have been added to give the user more flexibility and choices.
+
+### App Walk-though
+https://imgur.com/t4Kk73T
+
+## Required
+- [x] User can open the creation screen
+- [x] User can cancel out of the creation screen
+- [x] User can enter a new question and answer in the creation screen to then show it on the flashcard
+- [x] Push code to GitHub
+## Optional
+- [x] User gets an error if they try to create a new flashcard with no question or answer
+- [x] User can edit existing flashcard
+- [x] User can add multiple choice answers in the creation screen
 
 ## Lab 1
 
