@@ -86,9 +86,11 @@ class firstScreenViewController: UIViewController {
         frontPortrait.isHidden = true;
     }
     
-   func updateFlashcard(question: String, answer: String) {
+    func updateFlashcard(question: String, answer: String, answer2: String, answer3: String) {
     frontLabel.text = question
     frontSchind.text = answer
+    frontLincoln.text = answer2
+    frontPortrait.text = answer3
    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -100,5 +102,13 @@ class firstScreenViewController: UIViewController {
         
         //we set the flashcardsController property to self
         creationController.flashcardsController = self
+        
+        //for edit button
+        if segue.identifier == "EditSegue" {
+            creationController.initialQuestion = frontLabel.text
+            creationController.initialAnswer = frontSchind.text
+            creationController.initialAnswer2 = frontLincoln.text
+            creationController.initialAnswer3 = frontPortrait.text
+        }
     }
 }
