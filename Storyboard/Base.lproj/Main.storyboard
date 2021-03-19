@@ -49,6 +49,14 @@
                                             <segue destination="iha-cb-Cp0" kind="presentation" identifier="EditSegue" id="YGS-rl-LAa"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dVa-P3-gbo">
+                                        <rect key="frame" x="17" y="51" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="❌ "/>
+                                        <connections>
+                                            <action selector="didTapOnDelete:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kf6-u1-aMM"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <gestureRecognizers/>
@@ -162,6 +170,24 @@
                                     <segue destination="iha-cb-Cp0" kind="presentation" id="VhC-9Z-gmK"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I0q-SM-Lu9">
+                                <rect key="frame" x="25" y="840" width="38" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Prev"/>
+                                <connections>
+                                    <action selector="didTapOnPrev:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vkb-XR-fTO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d86-WN-k7c">
+                                <rect key="frame" x="341" y="840" width="40" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="didTapOnNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rx3-Nf-R1O"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.55798676006580306" green="0.099703626835323175" blue="0.060164170218233635" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -179,6 +205,8 @@
                         <outlet property="frontLincoln" destination="fcl-cK-CFS" id="2kw-4O-uho"/>
                         <outlet property="frontPortrait" destination="hRz-ak-MYb" id="2Z8-cu-cvL"/>
                         <outlet property="frontSchind" destination="NGv-9T-rvg" id="WCJ-eK-uAA"/>
+                        <outlet property="nextButton" destination="d86-WN-k7c" id="7D5-Oc-brU"/>
+                        <outlet property="prevButton" destination="I0q-SM-Lu9" id="aDG-jj-Nt4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

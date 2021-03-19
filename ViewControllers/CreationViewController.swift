@@ -17,6 +17,7 @@ class CreationViewController: UIViewController {
     var initialAnswer3: String?
     
     
+    
     @IBOutlet weak var questionTextField: UITextField!
     @IBOutlet weak var answerTextField: UITextField!
     @IBOutlet weak var answerTextField2: UITextField!
@@ -61,10 +62,10 @@ class CreationViewController: UIViewController {
         //Call the function to update the flashcard
         else {
             flashcardsController.updateFlashcard(question: questionText!, answer: answerText!, answer2: answerText2!, answer3: answerText3!)
-            
+            }
             //dismiss
             dismiss(animated: true)
         }
         
     }
-}
+
