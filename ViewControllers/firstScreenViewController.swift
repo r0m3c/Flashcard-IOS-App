@@ -255,7 +255,7 @@ class firstScreenViewController: UIViewController {
             //put all these cards in our flashcards array
             flashcards.append(contentsOf: savedCards)
             }
-            }
+    }
         }
         
 
