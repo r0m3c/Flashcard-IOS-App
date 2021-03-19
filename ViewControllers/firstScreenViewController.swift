@@ -45,7 +45,6 @@ class firstScreenViewController: UIViewController {
     @IBOutlet weak var prevButton: UIButton!
     @IBOutlet weak var nextButton: UIButton!
     
-    
     @IBAction func didTapOnDelete(_ sender: Any) {
         //show confirmation of deletion
         let alert = UIAlertController(title: "Delete Flashcard", message: "Are you sure you want to delete it?", preferredStyle: .actionSheet)
