@@ -6,7 +6,7 @@
 To begin, some new additions that I have added to my app are being able to give the user the ability to browse through multiple flashcards. Of course, the user will have to manually add a newcard, but then after that I've added "next" and "prev" buttons that will enable the user to switch back and forth between all flashcards they desire. These buttons will be turned on/off depending on how many flashcards there are. Also, a new addition was added where after the user closes the app, any flashcards they have already made will be saved and will be on the app when they desire to open it back up. Moreover, now the user can delete a flashcard by pressing the "❌" button to delete any flaschard they desire. This will erase it from the app entirely. Lastly, the user will also have the ability to store multiple choice flashcards if they so desire. In summary, this has app has full functionality that the user can use on a regular basis. 
 
 ### App Walk-though
-![](https://imgur.com/VrASsBJ)
+![](https://imgur.com/VrASsBJ.gif)
 
 ## Required
 - [x] User can browse through multiple flashcards
