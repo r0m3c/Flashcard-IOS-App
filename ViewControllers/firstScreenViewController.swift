@@ -136,21 +136,37 @@ class firstScreenViewController: UIViewController {
     }
     
     @IBAction func didTaponFlashcard1(_ sender: Any) {
-        frontLincoln.isHidden =  true;
+        flipFlashcard1()
     }
     
+    func flipFlashcard1() {
+        
+        UIView.transition(with: Card1, duration: 0.3, options: .transitionFlipFromRight, animations: { self.frontLincoln.isHidden =  true;
+        })
+        }
+    
     @IBAction func didTaponFlashcard2(_ sender: Any) {
-        if (frontSchind.isHidden == false) {
-            frontSchind.isHidden = true;
-            return;
-        }
-        else if (frontSchind.isHidden == true) {
-            frontSchind.isHidden = false;
-        }
+        flipFlashcard2()
         }
 
+    func flipFlashcard2() {
+        UIView.transition(with: Card2, duration: 0.3, options: .transitionFlipFromRight, animations: { if (self.frontSchind.isHidden == false) {
+            self.frontSchind.isHidden = true;
+            return;
+        }
+        else if (self.frontSchind.isHidden == true) {
+            self.frontSchind.isHidden = false;
+        };
+        })
+    }
+    
     @IBAction func didTaponFlashcard3(_ sender: Any) {
-        frontPortrait.isHidden = true;
+        flipFlashcard3()
+    }
+    
+    func flipFlashcard3() {
+        UIView.transition(with: Card3, duration: 0.3, options: .transitionFlipFromRight, animations: { self.frontPortrait.isHidden = true;
+        })
     }
     
     struct Flashcard {
