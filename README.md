@@ -7,7 +7,7 @@ To start out with, the new additions to the app include adding new arrow images 
 
 ### App Walk-though
 
-![](https://i.imgur.com/WOrQN5m.mp4)
+![](https://imgur.com/WOrQN5m.gif)
 
 ## Required
 - [x] User should see the app icon 
