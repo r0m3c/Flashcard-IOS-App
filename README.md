@@ -21,6 +21,9 @@ To start out with, the new additions to the app include adding new arrow images 
 - [ ] User should see all views properly layout when using the app on a phone of different sizes
 - [ ] Correct answer in multiple choice should be random
 
+## Additional
+- [x] User can edit existing flashcard (completed optional from lab 3)
+
 ## Lab 3
 
 ### App Description
