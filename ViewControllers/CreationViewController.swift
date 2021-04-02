@@ -37,7 +37,6 @@ class CreationViewController: UIViewController {
         dismiss(animated: true)
     }
     
-    
     @IBAction func didTapOnDone(_ sender: Any) {
         //Get the text in the question text field
         let questionText = questionTextField.text
