@@ -3,7 +3,7 @@
 ## Lab 4
 
 ### App Description
-`TODO://` Add app description
+To start out with, the new additions to the app include adding new arrow images and a new "+" image to our buttons. So, rather than having "next" and "prev" we have images as buttons. Moreover, a new addition to the app includes giving the app a logo. By this, I mean that before the app had a gridlike picture on it. This could be seen in the precious gifs. Now, on the home screen, the app now has a neat logo. Lastly, I managed to add the same logo for the app that I just discussed, but this time the image will come up whenever we open the app. For example, you open the app, and then for the first second and a half, the same app logo image can be seen in the middle of the screen. Then after those few seconds, the app will show you all the flashcards that are stored in the app.
 
 ### App Walk-though
 
